@@ -20,8 +20,8 @@ public class DemoSpring01Application {
    public static CommandLineRunner commandLineRunner(ClassRoomDAO classRoomDAO){
         return args -> {
             System.out.println("Start ...");
-            getClassById(classRoomDAO);
-            addNewClass(classRoomDAO);
+//            getClassById(classRoomDAO);
+//            addNewClass(classRoomDAO);
         };
    }
 

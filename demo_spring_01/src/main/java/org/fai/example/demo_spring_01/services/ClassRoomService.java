@@ -27,6 +27,11 @@ public class ClassRoomService implements IClassRoomService{
 
     @Override
     public void saveClassRoom(ClassRoom classRoom) {
+        this.classRoomRepository.save(classRoom);
+    }
 
+    @Override
+    public void deleteClassRoomById(Integer id) {
+        this.classRoomRepository.deleteById(id);
     }
 }
