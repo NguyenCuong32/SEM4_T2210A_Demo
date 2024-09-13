@@ -1,2 +1,13 @@
-package org.fai.example.demo_spring_security.controller;public class LoginController {
+package org.fai.example.demo_spring_security.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class LoginController {
+    @GetMapping("/loginpage")
+    public String login() {
+        return "login";
+    }
 }
