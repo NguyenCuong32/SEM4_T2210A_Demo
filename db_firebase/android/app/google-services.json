@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "925221274771",
+    "firebase_url": "https://faiflutterdemo-default-rtdb.firebaseio.com",
+    "project_id": "faiflutterdemo",
+    "storage_bucket": "faiflutterdemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925221274771:android:f972524b339daeaf4e7966",
+        "android_client_info": {
+          "package_name": "com.example.db_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGXp-MKv94znuBihkFvSRBtPJsLvltZic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

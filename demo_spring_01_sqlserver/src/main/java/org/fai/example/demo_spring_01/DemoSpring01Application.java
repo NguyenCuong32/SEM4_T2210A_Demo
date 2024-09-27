@@ -21,12 +21,13 @@ public class DemoSpring01Application {
         return args -> {
             System.out.println("Start ...");
             addNewClass(classRoomDAO);
+            System.out.println("Connected");
         };
    }
 
     private static void addNewClass(ClassRoomDAO classRoomDAO) {
         ClassRoom classRoom = new ClassRoom();
-        classRoom.setClass_name("T2210A");
+        classRoom.setClass_name("T2210A111");
         classRoom.setNumber_member(20);
         classRoomDAO.saveClassRoom(classRoom);
     }
